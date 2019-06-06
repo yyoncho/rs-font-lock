@@ -1,0 +1,14 @@
+[package]
+edition = "2018"
+name = "rs-font-lock"
+version = "0.0.1"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+emacs = "0.8.0"
+syntect = "3.2"
+
+[dev-dependencies]
+emacs-rs-module = { version = "0.7.0" }
